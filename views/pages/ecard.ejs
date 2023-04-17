@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs') %>
+    <title>eCard | user.firstName + " " + user.lastName </title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="container-medium">
+            <%- include('../partials/nav.ejs') %>
+        </header>
+        
+        <main class="page-full">
+            <div class='container-xsmall'>
+                <section class="card">
+                    <div class="cover">
+                        <div class="profile-container">
+                            <img src="/assets/images/profile-pic.png">
+                        </div>
+                    </div>
+                    <header>
+                        <h1>Daniel Vidar Holm</h1>
+                        <div class="subtitle-container">
+                            <p>Occupation</p>
+                            <p>Company</p>
+                        </div>
+                        <p>Lorem sit amet consectetur sit amet consectetur adipisicing elit sit amet consectetur</p>
+                    </header>
+                    <main>
+                        <section class="socials">
+                            <div class="field">
+                                <div class="field-icon">
+                                    <img src="/assets/images/brands/linkedin.svg">
+                                </div>
+                                <a href="#" class="field-button">
+                                    Visit Linked-in
+                                </a>
+                            </div>
+                            <div class="field">
+                                <div class="field-icon">
+                                    <img src="/assets/images/brands/twitter.svg">
+                                </div>
+                                <a href="#" class="field-button">
+                                    Visit Twitter
+                                </a>
+                            </div>
+                            <div class="field">
+                                <div class="field-icon">
+                                    <img src="/assets/images/brands/facebook.svg">
+                                </div>
+                                <a href="#" class="field-button">
+                                    Visit Facebook
+                                </a>
+                            </div>
+                            <div class="field">
+                                <div class="field-icon">
+                                    <img src="/assets/images/brands/instagram.svg">
+                                </div>
+                                <a href="#" class="field-button">
+                                    Visit Instagram
+                                </a>
+                            </div>
+
+                        </section>
+                    </main>
+                    <footer>
+                        cta
+                    </footer>
+                </section>
+            </div>
+        </main>
+        <footer class="container-medium">
+
+        </footer>
+    </div>
+</body>
+</html>
