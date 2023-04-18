@@ -18,6 +18,7 @@ MongoClient.connect(process.env.MONGO_CONNECTION_STRING, {useUnifiedTopology:tru
         db = client.db('CMS')
         console.log('Connected to Database')
     })
+    .catch(err => console.error(err))
 
 
 app.get('/', (req, res) => {
